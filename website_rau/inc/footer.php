@@ -37,7 +37,7 @@
 				<div class="col_1_of_4 span_1_of_4">
 					<h4>Contact</h4>
 						<ul>
-							<li><span>+88-01713458599</span></li>
+							<li><span>0842415839</span></li>
 							<li><a href="https://qrgo.page.link/34LuF">
 								<img src="admin/uploads/qrcode.png">
 							</a></li>

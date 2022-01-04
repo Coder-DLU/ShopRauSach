@@ -13,11 +13,11 @@
 	      <div class="section group">
 				<div class="grid_1_of_4 images_1_of_4">
 					 <a href="preview-3.php"><img src="images/feature-pic1.png" alt="" /></a>
-					 <h2>Lorem Ipsum is simply </h2>
+					 <h2 style="font-size: 20px;">Lorem Ipsum is simply </h2>
 					 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
 					 <p><span class="price">$505.22</span></p>
 				     <div class="button"><span><a href="preview.php" class="details">Details</a></span></div>
-				</div>
+				</div> 
 				<div class="grid_1_of_4 images_1_of_4">
 					<a href="preview-2.php"><img src="images/feature-pic2.jpg" alt="" /></a>
 					 <h2>Lorem Ipsum is simply </h2>

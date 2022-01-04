@@ -35,12 +35,15 @@
 	      	 if($brandpr){
 	      	 	while($result = $brandpr->fetch_assoc()){
 	      	?>
-				<div class="grid_1_of_4 images_1_of_4">
-					 <a href="details.php?proid=<?php echo $result['productId'] ?>"><img src="admin/uploads/<?php echo $result['image'] ?>" width="200px" alt="" /></a>
-					 <h2><?php echo $result['productName'] ?></h2>
-					 <p><?php echo $fm->textShorten($result['product_desc'],50); ?></p>
+				<div class="grid_1_of_4 images_1_of_4" style="height: 360px;margin-left: 30px;">
+					 <img style="width: 165px;height: 165px;" src="admin/uploads/<?php echo $result['image'] ?>" width="200px" alt="" />
+					 <h2 style="font-size: 25px;color: #000;"><?php echo $result['productName'] ?></h2>
 					 <p><span class="price"><?php echo $fm->format_currency($result['price'])." "."VNĐ" ?></span></p>
-				     <div class="button"><span><a href="details.php?proid=<?php echo $result['productId'] ?>" class="details">Chi tiết</a></span></div>
+				     <div class="button">
+						 <span>
+							 <a style="width: 120px;height: 40px;padding-top: 10px;font-size: 18px;color: #fff;background-color: #252525 !important;" href="details.php?proid=<?php echo $result['productId'] ?>" class="details">Chi tiết</a>
+							</span>
+						</div>
 				</div>
 			<?php
 			}

@@ -32,6 +32,9 @@ body{
 	margin:0 auto;
 	padding:0 1%;
 	background:#FFF;
+	width: 160px;
+	height: 160px;
+	width: ;
 }
 .header{
 	background:#FFF;
@@ -120,6 +123,7 @@ body{
 .grid_1_of_4.images_1_of_4 {
   
     height: 420px;
+	
 }
 .shopping_cart .cart .opencart {
 	width: 7px;
@@ -534,7 +538,7 @@ p.note{
 	background:#FFF;
 }
 .content h2{ 
-	font-size:23px;
+	font-size:50px;
 	color:#6C6C6C;
 	font-family: 'Monda', sans-serif;
 }
@@ -941,13 +945,14 @@ p.note{
 	font-weight : normal;
 	margin-top: 0px;
 	text-transform:uppercase;
+	
 }
 .span_3_of_2  p{
 	font-size:0.8125em;
 	padding:0.3em 0;
-	color:#969696;
+	color:#000;
 	line-height: 1.6em;
-	font-family : verdana, arial, helvetica, helve, sans-serif; 	
+	font-family : verdana, arial, helvetica, helve, sans-serif; 
 }
 .price p{
 	font-size:0.8125em;

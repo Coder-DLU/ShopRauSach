@@ -5,17 +5,13 @@
 
 <?php
    
-    if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
-        
-        $insertCustomers = $cs->insert_customers($_POST);
-        
+    if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {       
+        $insertCustomers = $cs->insert_customers($_POST);   
     }
 ?>
 <?php
-	if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
-        
-        $login_Customers = $cs->login_customers($_POST);
-        
+	if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {   
+        $login_Customers = $cs->login_customers($_POST); 
     }
 ?>
  <div class="main">
@@ -54,7 +50,6 @@
 							<div>
 							<input type="text" name="name" placeholder="Enter Name..." >
 							</div>
-							
 							<div>
 							   <input type="text" name="city"  placeholder="Enter City..."  >
 							</div>
